@@ -23,13 +23,24 @@ mi propuesta se basa en un programa que le avisara a los maestros el promedio de
 ## 2. Qué implica en el diseño
 
 ¿Qué partes de la solución cambian (arreglos, constantes, funciones, menú)? Justifica cada cambio.
-
-[Inserta aquí tu respuesta]
+funciones: mostrarAprobadosYReprobados cambia la forma de evaluar, ya no revisa materia por materia, sino que saca el promedio general de cada alumno 
+variables basicamente quitamos los contadores de cada materia y agregamos algo mas simple uy al punto como bien, aprobado, en riesgo
+al usar el promedio general, el codigo hace menso operaciones, la logica se entiende mucho mas rapido y nos da informacion mas util sobre como va el grupo o el alumno 
 
 ## 3. Receta
 
 Receta en pseudocódigo de la solución con tu propuesta. Marca cada paso nuevo con `[NUEVO]` y cada paso que cambia con `[CAMBIA]`. Los pasos sin marca son los que ya existen.
 
 ```
-[Inserta aquí tu respuesta]
+1. Si no hay alumnos, mostrar mensaje y salir.
+2. Poner los contadores (Bien, Aprobados y EnRiesgo) en 0. [cambia]
+3. Para cada alumno:
+3.1 Calcular el promedio de sus 3 materias. [nuevo]
+3.2 si le promedio es >=9.0: guardar como ¨BIEN¨ y sumar a bien. [nuevo]
+3.3 si le promedio es >=7.0: guardar como ¨APROBADO¨ y sumar a aprobados. [nuevo]
+3.4 si le promedio es menor a 7.0: guardar como ¨EnRiesgo¨ y sumar a EnRiesgo. [nuevo]
+3.5 Imprimir nombre, promedio y resultado. [cambia]
+4.Imprimir los totales de cada categoria. [cambia]
+
+
 ```

@@ -44,10 +44,12 @@ void mostrarEstadisticas(const std::string nombres[],
         if (disenoProgramas[i] < menorDiseno) menorDiseno = disenoProgramas[i];
     }
 
-    std::cout << "--- ESTADISTICAS POR MATERIA ---\n";
-    std::cout << "Espanol: " << (sumaEspanol / total) << "\n";
-    std::cout << "Matematicas: " << (sumaMatematicas / total) << "\n";
-    std::cout << "Diseno de Programas: " << (sumaDiseno / total) << "\n";
-    std::cout << "Mas alta: Diseno de Programas (" << mayorDiseno << ")\n";
-    std::cout << "Mas baja: Matematicas (" << menorMatematicas << ")\n";
+    std::cout << "Mas alta: Espanol (" << mayorEspanol << ")\n";
+std::cout << "Mas alta: Matematicas (" << mayorMatematicas << ")\n";
+std::cout << "Mas alta: Diseno de Programas (" << mayorDiseno << ")\n";
+
+std::cout << "Mas baja: Espanol (" << menorEspanol << ")\n";
+std::cout << "Mas baja: Matematicas (" << menorMatematicas << ")\n";
+std::cout << "Mas baja: Diseno de Programas (" << menorDiseno << ")\n";
+
 }
