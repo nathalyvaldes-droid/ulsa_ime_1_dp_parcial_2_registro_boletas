@@ -107,7 +107,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Bloque | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-| 1 | [Oliver Fernando Lopez Pineda] | [26146] |
+| 1 | [Oliver Fernando Lopez Pineda] | [26146] | en lugar de escribir todo el nombre completo del alumno, usar métodos de cadenas para usar solo las primeras tres iniciales del nombre y del apellido o incluso un numero de lista por orden alfabético e introducir unicamente este dato.
 | 2 | [Nathaly Valdes] | [26162] |mi propuesta se basa en un programa que le avisara a los maestros el promedio de sus alumnos pero no solo el promedio si no su desempeño, la idea es que el programa sume los promedios de todas sus materias y le mande un aviso a su profesor diciendo si su desempeño es bueno o esta en riesgo de recursar, esta yo lo veo como un abuena mejora ya que puede tanto como ayudar a los alumnos como a los profesores cuando califiquen|
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Maximiliano Muñoz Solís] | [26164] | [docs/26164_bloque.md] | [docs/mejoras/26164_mejora.md] |
